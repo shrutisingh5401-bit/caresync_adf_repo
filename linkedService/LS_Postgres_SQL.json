@@ -1,0 +1,17 @@
+{
+	"name": "LS_Postgres_SQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "PostgreSqlV2",
+		"typeProperties": {
+			"server": "ep-soft-river-be62qbq0-pooler.c-9.us-east-2.aws.neon.tech",
+			"port": 5432,
+			"database": "neondb",
+			"username": "neondb_owner",
+			"sslMode": 2,
+			"authenticationType": "Basic",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDAzNTc1MUYzLUJDMjUtNDBGMy05QkVELUQ5M0RBNTkwQzE5Nl8wNDQ2MGM4Ni1jYTYwLTQ5ZTAtYjU1ZS01ZmZhYmUzYzEzYTMiDQp9"
+		}
+	}
+}
